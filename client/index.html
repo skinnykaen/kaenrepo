@@ -3,12 +3,28 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
+    <title>Basic Forum</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel = 'stylesheet' type='text/css' href='./css_skeleton/normalize.css'>
+    <link rel = 'stylesheet' type='text/css' href='.css_skeleton/skeleton.css'>
     <script src='client.js'></script>
 </head>
 <body>
-    <!-- Html file--> 
+    <header class ="head">
+      <h1 class="forum-title">This is basic forum</h1>
+    </header>
+    <main class ="main">
+      <div class = "send-form-wrapper">
+        <form class="send-form">
+          <label for="text">Enter your question or answer</label>
+            <input type = "text" id="text" name="text">
+            <button class ="button-primary" id ="send" type="submit">
+        </form>
+      </div>
+      <div class="content">
+
+      </div>
+    </main>
 </body>
 </html>
