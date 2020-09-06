@@ -1,0 +1,32 @@
+@font-face {
+  font-family: Ustroke-regular;
+  src: url(./fonts/Quote.ttf) format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
+.main {
+  box-sizing: border-box;
+  width: 100%;
+  padding-top: 15px;
+  text-align: center;
+
+}
+
+.head {
+  width: 100%;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.head h1 {
+  font-family: Ustroke-regular;
+  font-size: 35px;
+  color: red;
+}
+
+label {
+  font-family: Ustroke-regular;
+  font-size: 35px;
+  color: red;
+}
